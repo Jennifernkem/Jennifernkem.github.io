@@ -20,6 +20,7 @@ export default function About() {
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}>
+            </div>
             <h3 style={{fontSize: '18px', fontWeight: '600', color: '#374151'}}>Daniel Ojotule Offor</h3>
             <p style={{fontSize: '14px', color: '#6b7280', marginTop: '4px'}}>Clinical Psychologist & Researcher</p>
           </div>
