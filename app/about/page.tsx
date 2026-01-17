@@ -16,19 +16,10 @@ export default function About() {
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              border: '2px dashed #d1d5db',
               backgroundImage: 'url(/images/daniel-photo.jpeg)',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}>
-              <div style={{textAlign: 'center', color: '#6b7280'}}>
-                <svg style={{width: '48px', height: '48px', margin: '0 auto 8px'}} fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                </svg>
-                <p style={{fontSize: '14px'}}>Professional Photo</p>
-                <p style={{fontSize: '12px'}}>Please add Daniel's image</p>
-              </div>
-            </div>
             <h3 style={{fontSize: '18px', fontWeight: '600', color: '#374151'}}>Daniel Ojotule Offor</h3>
             <p style={{fontSize: '14px', color: '#6b7280', marginTop: '4px'}}>Clinical Psychologist & Researcher</p>
           </div>
