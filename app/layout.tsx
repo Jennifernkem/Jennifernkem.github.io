@@ -16,11 +16,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body style={{
-        backgroundImage: 'linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(31, 41, 55, 0.8) 100%), url(/images/hero-bg.jpg)',
+        backgroundImage: 'url("/images/hero-bg.jpg")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        backgroundAttachment: 'fixed',
-        backgroundRepeat: 'no-repeat'
+        backgroundRepeat: 'no-repeat',
+        minHeight: '100vh'
       }}>
         <div className="content-wrapper">
           <header style={{padding: '20px 24px', borderBottom: '1px solid rgba(255,255,255,0.2)', backgroundColor: 'rgba(255,255,255,0.1)', backdropFilter: 'blur(10px)'}}>
