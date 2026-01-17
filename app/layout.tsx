@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body style={{
-        backgroundImage: 'url("/images/hero-bg.jpg")',
+        backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/hero-bg.jpg")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
