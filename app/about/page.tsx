@@ -17,7 +17,7 @@ export default function About() {
               alignItems: 'center',
               justifyContent: 'center',
               border: '2px dashed #d1d5db',
-              backgroundImage: 'url(/images/daniel-photo.jpg)',
+              backgroundImage: 'url(/images/daniel-photo.jpeg)',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}>
