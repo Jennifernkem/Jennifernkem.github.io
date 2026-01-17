@@ -11,16 +11,8 @@
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   line-height: 1.6;
-  color: #374151;
-  background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(31, 41, 55, 0.8) 100%), 
-              url('/images/hero-bg.jpg') center/cover no-repeat fixed;
+  color: #000000;
   min-height: 100vh;
-}
-
-/* Different background for other pages */
-body:not(.home-page) {
-  background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(31, 41, 55, 0.8) 100%), 
-              url('/images/Section-bg.jpg') center/cover no-repeat fixed;
 }
 
 .content-wrapper {
