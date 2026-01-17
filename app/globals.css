@@ -17,6 +17,12 @@ body {
   min-height: 100vh;
 }
 
+/* Different background for other pages */
+body:not(.home-page) {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(31, 41, 55, 0.8) 100%), 
+              url('/images/Section-bg.jpg') center/cover no-repeat fixed;
+}
+
 .content-wrapper {
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);

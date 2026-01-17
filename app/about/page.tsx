@@ -16,7 +16,7 @@ export default function About() {
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              backgroundImage: 'url(/images/daniel-photo.jpeg)',
+              backgroundImage: 'url(/images/daniel.photo.jpeg)',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}>
