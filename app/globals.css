@@ -12,9 +12,7 @@ body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   line-height: 1.6;
   color: #374151;
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.8) 0%, rgba(118, 75, 162, 0.8) 100%), 
-              url('/hero-bg.jpg') center/cover no-repeat;
-  background-attachment: fixed;
+  background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
   min-height: 100vh;
 }
 
