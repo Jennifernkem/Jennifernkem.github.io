@@ -108,6 +108,70 @@ export default function Publications() {
               Read Full Article →
             </a>
           </div>
+
+          <div className="card border-l-4 border-indigo-600">
+            <div className="mb-4">
+              <span className="bg-indigo-100 text-indigo-800 text-sm px-3 py-1 rounded-full">2024</span>
+            </div>
+            <h3 className="text-xl font-semibold mb-3">
+              Trauma Manifestations and Nonverbal Expressions: A Clinical Study
+            </h3>
+            <p className="text-gray-600 mb-3">
+              <strong>Author:</strong> Offor, D. O.
+            </p>
+            <p className="text-gray-700 mb-4">
+              Research examining how trauma manifests through nonverbal expressions and body language, 
+              providing insights for clinical assessment and therapeutic interventions.
+            </p>
+          </div>
+
+          <div className="card border-l-4 border-teal-600">
+            <div className="mb-4">
+              <span className="bg-teal-100 text-teal-800 text-sm px-3 py-1 rounded-full">2024</span>
+            </div>
+            <h3 className="text-xl font-semibold mb-3">
+              Substance Abuse Among Nigerian Youth: Psychological Factors and Interventions
+            </h3>
+            <p className="text-gray-600 mb-3">
+              <strong>Author:</strong> Offor, D. O.
+            </p>
+            <p className="text-gray-700 mb-4">
+              A comprehensive study on substance abuse patterns among Nigerian youth, 
+              identifying key psychological factors and evidence-based intervention strategies.
+            </p>
+          </div>
+
+          <div className="card border-l-4 border-pink-600">
+            <div className="mb-4">
+              <span className="bg-pink-100 text-pink-800 text-sm px-3 py-1 rounded-full">2023</span>
+            </div>
+            <h3 className="text-xl font-semibold mb-3">
+              Family Therapy Approaches in Nigerian Cultural Context
+            </h3>
+            <p className="text-gray-600 mb-3">
+              <strong>Author:</strong> Offor, D. O.
+            </p>
+            <p className="text-gray-700 mb-4">
+              Exploring culturally adapted family therapy approaches for Nigerian families, 
+              integrating traditional values with modern therapeutic techniques.
+            </p>
+          </div>
+
+          <div className="card border-l-4 border-yellow-600">
+            <div className="mb-4">
+              <span className="bg-yellow-100 text-yellow-800 text-sm px-3 py-1 rounded-full">2023</span>
+            </div>
+            <h3 className="text-xl font-semibold mb-3">
+              Childhood Trauma and Its Long-term Psychological Effects
+            </h3>
+            <p className="text-gray-600 mb-3">
+              <strong>Author:</strong> Offor, D. O.
+            </p>
+            <p className="text-gray-700 mb-4">
+              Longitudinal study examining the lasting psychological impacts of childhood trauma 
+              and effective therapeutic interventions for adult survivors.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -157,6 +221,23 @@ export default function Publications() {
             </p>
           </div>
         </div>
+      </section>
+
+      {/* Google Scholar Profile */}
+      <section className="bg-gray-100 rounded-lg p-8">
+        <h2 className="text-3xl font-bold mb-6">Complete Publication List</h2>
+        <p className="text-xl mb-6 text-gray-700">
+          For a complete and up-to-date list of Daniel's publications, citations, and research metrics, 
+          visit his Google Scholar profile.
+        </p>
+        <a 
+          href="https://scholar.google.com/citations?hl=en&user=OZzMBHoAAAAJ" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-block"
+        >
+          View Google Scholar Profile →
+        </a>
       </section>
 
       {/* Didee Publications */}
