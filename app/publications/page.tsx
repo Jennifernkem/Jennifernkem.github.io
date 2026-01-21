@@ -13,30 +13,6 @@ export default function Publications() {
         <h2 className="text-3xl font-bold mb-8">Recent Publications (2024-2025)</h2>
         <div className="space-y-6">
           
-          <div className="card border-l-4 border-blue-600">
-            <div className="mb-4">
-              <span className="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">2025</span>
-            </div>
-            <h3 className="text-xl font-semibold mb-3">
-              Philosophy and Ethics in Modern Society: A Contemporary Analysis
-            </h3>
-            <p className="text-gray-600 mb-3">
-              <strong>Author:</strong> Offor, D. O.
-            </p>
-            <p className="text-gray-700 mb-4">
-              An in-depth exploration of philosophical and ethical frameworks in contemporary society, 
-              examining their relevance and application in modern psychological practice.
-            </p>
-            <a 
-              href="https://www.didee-publications.com/articles/philosophy-ethics-modern-society" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:underline font-medium"
-            >
-              Read Full Article →
-            </a>
-          </div>
-
           <div className="card border-l-4 border-green-600">
             <div className="mb-4">
               <span className="bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full">2024</span>
