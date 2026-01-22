@@ -8,11 +8,35 @@ export default function Publications() {
         </p>
       </section>
 
-      {/* Recent Publications */}
+      {/* Didee Publications - 4 articles */}
       <section>
-        <h2 className="text-3xl font-bold mb-8">Recent Publications (2024-2025)</h2>
+        <h2 className="text-3xl font-bold mb-8 text-blue-600">Featured Publications - Didee Publications</h2>
         <div className="space-y-6">
           
+          <div className="card border-l-4 border-blue-600">
+            <div className="mb-4">
+              <span className="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">2024</span>
+            </div>
+            <h3 className="text-xl font-semibold mb-3">
+              Philosophy and Ethics in Modern Society: A Contemporary Analysis
+            </h3>
+            <p className="text-gray-600 mb-3">
+              <strong>Author:</strong> Offor, D. O.
+            </p>
+            <p className="text-gray-700 mb-4">
+              An in-depth exploration of philosophical and ethical frameworks in contemporary society, 
+              examining their relevance and application in modern psychological practice.
+            </p>
+            <a 
+              href="https://www.didee-publications.com/articles/philosophy-ethics-modern-society" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline font-medium"
+            >
+              Read Full Article →
+            </a>
+          </div>
+
           <div className="card border-l-4 border-green-600">
             <div className="mb-4">
               <span className="bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full">2024</span>
@@ -84,20 +108,87 @@ export default function Publications() {
               Read Full Article →
             </a>
           </div>
+        </div>
+      </section>
+
+      {/* Google Scholar Publications - 5 articles */}
+      <section>
+        <h2 className="text-3xl font-bold mb-8 text-green-600">Peer-Reviewed Journal Publications</h2>
+        <div className="space-y-6">
+          
+          <div className="card border-l-4 border-orange-600">
+            <div className="mb-4">
+              <span className="bg-orange-100 text-orange-800 text-sm px-3 py-1 rounded-full">2025</span>
+            </div>
+            <h3 className="text-xl font-semibold mb-3">
+              Substance abuse among out-of-school adolescents: Examining the roles of peer pressure, self-esteem, social rejection and parental monitoring in Ibadan, Nigeria
+            </h3>
+            <p className="text-gray-600 mb-3">
+              <strong>Authors:</strong> Offor, D. O., Omopo, O. E. & Ilori, K. M.
+            </p>
+            <p className="text-gray-600 mb-3">
+              <strong>Journal:</strong> Islamic University Journal of Social Sciences, 4(4), 1-13
+            </p>
+            <p className="text-gray-700">
+              This study examines the complex factors contributing to substance abuse among out-of-school adolescents, 
+              providing insights into prevention and intervention strategies.
+            </p>
+          </div>
 
           <div className="card border-l-4 border-indigo-600">
             <div className="mb-4">
-              <span className="bg-indigo-100 text-indigo-800 text-sm px-3 py-1 rounded-full">2024</span>
+              <span className="bg-indigo-100 text-indigo-800 text-sm px-3 py-1 rounded-full">2025</span>
             </div>
             <h3 className="text-xl font-semibold mb-3">
-              Trauma Manifestations and Nonverbal Expressions: A Clinical Study
+              Effects of stress inoculation and cognitive behaviour therapies in enhancing conjugal bliss of women with childhood trauma in Lagos, Nigeria
             </h3>
             <p className="text-gray-600 mb-3">
               <strong>Author:</strong> Offor, D. O.
             </p>
-            <p className="text-gray-700 mb-4">
-              Research examining how trauma manifests through nonverbal expressions and body language, 
-              providing insights for clinical assessment and therapeutic interventions.
+            <p className="text-gray-600 mb-3">
+              <strong>Journal:</strong> NIU Journal of Humanities, 10(1)
+            </p>
+            <p className="text-gray-700">
+              Research investigating the effectiveness of therapeutic interventions in improving marital relationships 
+              for women who experienced childhood trauma.
+            </p>
+          </div>
+
+          <div className="card border-l-4 border-pink-600">
+            <div className="mb-4">
+              <span className="bg-pink-100 text-pink-800 text-sm px-3 py-1 rounded-full">2024</span>
+            </div>
+            <h3 className="text-xl font-semibold mb-3">
+              Nonverbal expressions of trauma: A secondary analysis of PTSD-specific cues in clinical assessments
+            </h3>
+            <p className="text-gray-600 mb-3">
+              <strong>Authors:</strong> Offor, D. O., Omopo, O. E., & Ilori, K. M.
+            </p>
+            <p className="text-gray-600 mb-3">
+              <strong>Journal:</strong> IOSR Journal of Humanities and Social Science, 29(11), 1-7
+            </p>
+            <p className="text-gray-700">
+              A comprehensive analysis of nonverbal indicators of trauma, contributing to improved diagnostic 
+              accuracy in clinical settings.
+            </p>
+          </div>
+
+          <div className="card border-l-4 border-yellow-600">
+            <div className="mb-4">
+              <span className="bg-yellow-100 text-yellow-800 text-sm px-3 py-1 rounded-full">2024</span>
+            </div>
+            <h3 className="text-xl font-semibold mb-3">
+              Exploring the psychological and socio-economic drivers of child sexual assault offenders in Agodi Correctional Centre, Ibadan
+            </h3>
+            <p className="text-gray-600 mb-3">
+              <strong>Authors:</strong> Offor, D. O. & Omopo, O. E.
+            </p>
+            <p className="text-gray-600 mb-3">
+              <strong>Journal:</strong> International Journal of Research and Analytical Reviews, 12(1), 171-188
+            </p>
+            <p className="text-gray-700">
+              Critical research examining the underlying factors contributing to child sexual assault, 
+              informing prevention and rehabilitation strategies.
             </p>
           </div>
 
@@ -106,94 +197,17 @@ export default function Publications() {
               <span className="bg-teal-100 text-teal-800 text-sm px-3 py-1 rounded-full">2024</span>
             </div>
             <h3 className="text-xl font-semibold mb-3">
-              Substance Abuse Among Nigerian Youth: Psychological Factors and Interventions
+              The influence of childhood trauma and peer influence on substance abuse among psychiatric patients in Ibadan
             </h3>
             <p className="text-gray-600 mb-3">
-              <strong>Author:</strong> Offor, D. O.
+              <strong>Authors:</strong> Omopo, O. E., Offor, D. O., & Ogunbowale, I. A.
             </p>
-            <p className="text-gray-700 mb-4">
-              A comprehensive study on substance abuse patterns among Nigerian youth, 
-              identifying key psychological factors and evidence-based intervention strategies.
-            </p>
-          </div>
-
-          <div className="card border-l-4 border-pink-600">
-            <div className="mb-4">
-              <span className="bg-pink-100 text-pink-800 text-sm px-3 py-1 rounded-full">2023</span>
-            </div>
-            <h3 className="text-xl font-semibold mb-3">
-              Family Therapy Approaches in Nigerian Cultural Context
-            </h3>
             <p className="text-gray-600 mb-3">
-              <strong>Author:</strong> Offor, D. O.
+              <strong>Journal:</strong> International Journal of Science and Research Archives, 13(2), 1980-1992
             </p>
-            <p className="text-gray-700 mb-4">
-              Exploring culturally adapted family therapy approaches for Nigerian families, 
-              integrating traditional values with modern therapeutic techniques.
-            </p>
-          </div>
-
-          <div className="card border-l-4 border-yellow-600">
-            <div className="mb-4">
-              <span className="bg-yellow-100 text-yellow-800 text-sm px-3 py-1 rounded-full">2023</span>
-            </div>
-            <h3 className="text-xl font-semibold mb-3">
-              Childhood Trauma and Its Long-term Psychological Effects
-            </h3>
-            <p className="text-gray-600 mb-3">
-              <strong>Author:</strong> Offor, D. O.
-            </p>
-            <p className="text-gray-700 mb-4">
-              Longitudinal study examining the lasting psychological impacts of childhood trauma 
-              and effective therapeutic interventions for adult survivors.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Research Areas */}
-      <section className="bg-gray-50 rounded-lg p-8">
-        <h2 className="text-3xl font-bold mb-8">Research Focus Areas</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="bg-white p-6 rounded-lg shadow-sm">
-            <h3 className="text-xl font-semibold mb-3 text-blue-600">Trauma & PTSD</h3>
-            <p className="text-gray-600">
-              Investigating trauma manifestations, nonverbal expressions, and evidence-based therapeutic interventions.
-            </p>
-          </div>
-          
-          <div className="bg-white p-6 rounded-lg shadow-sm">
-            <h3 className="text-xl font-semibold mb-3 text-green-600">Substance Abuse</h3>
-            <p className="text-gray-600">
-              Examining factors contributing to substance abuse among various populations and effective treatment approaches.
-            </p>
-          </div>
-          
-          <div className="bg-white p-6 rounded-lg shadow-sm">
-            <h3 className="text-xl font-semibold mb-3 text-purple-600">Family Therapy</h3>
-            <p className="text-gray-600">
-              Research on family dynamics, childhood trauma effects, and therapeutic interventions for couples and families.
-            </p>
-          </div>
-          
-          <div className="bg-white p-6 rounded-lg shadow-sm">
-            <h3 className="text-xl font-semibold mb-3 text-red-600">Clinical Assessment</h3>
-            <p className="text-gray-600">
-              Developing and validating assessment tools and diagnostic approaches for various psychological conditions.
-            </p>
-          </div>
-          
-          <div className="bg-white p-6 rounded-lg shadow-sm">
-            <h3 className="text-xl font-semibold mb-3 text-orange-600">Therapeutic Interventions</h3>
-            <p className="text-gray-600">
-              Evaluating the effectiveness of CBT, DBT, and stress inoculation therapies across different populations.
-            </p>
-          </div>
-          
-          <div className="bg-white p-6 rounded-lg shadow-sm">
-            <h3 className="text-xl font-semibold mb-3 text-indigo-600">Cross-Cultural Psychology</h3>
-            <p className="text-gray-600">
-              Exploring psychological phenomena across different cultural contexts, particularly in Nigerian populations.
+            <p className="text-gray-700">
+              Investigation into the relationship between early trauma experiences and substance abuse patterns 
+              in psychiatric populations.
             </p>
           </div>
         </div>
