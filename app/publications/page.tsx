@@ -37,9 +37,9 @@ export default function Publications() {
             </a>
           </div>
 
-          <div className="card border-l-4 border-green-600">
+          <div className="card border-l-4 border-blue-600">
             <div className="mb-4">
-              <span className="bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full">2024</span>
+              <span className="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">2024</span>
             </div>
             <h3 className="text-xl font-semibold mb-3">
               Psychosocial Factors Influencing Mental Health Outcomes
@@ -61,9 +61,9 @@ export default function Publications() {
             </a>
           </div>
 
-          <div className="card border-l-4 border-purple-600">
+          <div className="card border-l-4 border-blue-600">
             <div className="mb-4">
-              <span className="bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full">2024</span>
+              <span className="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">2024</span>
             </div>
             <h3 className="text-xl font-semibold mb-3">
               Media Influence on Adolescent Sexuality: A Psychological Perspective
@@ -85,9 +85,9 @@ export default function Publications() {
             </a>
           </div>
 
-          <div className="card border-l-4 border-red-600">
+          <div className="card border-l-4 border-blue-600">
             <div className="mb-4">
-              <span className="bg-red-100 text-red-800 text-sm px-3 py-1 rounded-full">2024</span>
+              <span className="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">2024</span>
             </div>
             <h3 className="text-xl font-semibold mb-3">
               Exorcism in the Catholic Church: The Legacy of Gabriele Amorth
@@ -116,9 +116,9 @@ export default function Publications() {
         <h2 className="text-3xl font-bold mb-8 text-green-600">Peer-Reviewed Journal Publications</h2>
         <div className="space-y-6">
           
-          <div className="card border-l-4 border-orange-600">
+          <div className="card border-l-4 border-gray-600">
             <div className="mb-4">
-              <span className="bg-orange-100 text-orange-800 text-sm px-3 py-1 rounded-full">2025</span>
+              <span className="bg-gray-100 text-gray-800 text-sm px-3 py-1 rounded-full">2025</span>
             </div>
             <h3 className="text-xl font-semibold mb-3">
               Substance abuse among out-of-school adolescents: Examining the roles of peer pressure, self-esteem, social rejection and parental monitoring in Ibadan, Nigeria
@@ -135,9 +135,9 @@ export default function Publications() {
             </p>
           </div>
 
-          <div className="card border-l-4 border-indigo-600">
+          <div className="card border-l-4 border-gray-600">
             <div className="mb-4">
-              <span className="bg-indigo-100 text-indigo-800 text-sm px-3 py-1 rounded-full">2025</span>
+              <span className="bg-gray-100 text-gray-800 text-sm px-3 py-1 rounded-full">2025</span>
             </div>
             <h3 className="text-xl font-semibold mb-3">
               Effects of stress inoculation and cognitive behaviour therapies in enhancing conjugal bliss of women with childhood trauma in Lagos, Nigeria
@@ -154,9 +154,9 @@ export default function Publications() {
             </p>
           </div>
 
-          <div className="card border-l-4 border-pink-600">
+          <div className="card border-l-4 border-gray-600">
             <div className="mb-4">
-              <span className="bg-pink-100 text-pink-800 text-sm px-3 py-1 rounded-full">2024</span>
+              <span className="bg-gray-100 text-gray-800 text-sm px-3 py-1 rounded-full">2024</span>
             </div>
             <h3 className="text-xl font-semibold mb-3">
               Nonverbal expressions of trauma: A secondary analysis of PTSD-specific cues in clinical assessments
@@ -173,9 +173,9 @@ export default function Publications() {
             </p>
           </div>
 
-          <div className="card border-l-4 border-yellow-600">
+          <div className="card border-l-4 border-gray-600">
             <div className="mb-4">
-              <span className="bg-yellow-100 text-yellow-800 text-sm px-3 py-1 rounded-full">2024</span>
+              <span className="bg-gray-100 text-gray-800 text-sm px-3 py-1 rounded-full">2024</span>
             </div>
             <h3 className="text-xl font-semibold mb-3">
               Exploring the psychological and socio-economic drivers of child sexual assault offenders in Agodi Correctional Centre, Ibadan
@@ -192,9 +192,9 @@ export default function Publications() {
             </p>
           </div>
 
-          <div className="card border-l-4 border-teal-600">
+          <div className="card border-l-4 border-gray-600">
             <div className="mb-4">
-              <span className="bg-teal-100 text-teal-800 text-sm px-3 py-1 rounded-full">2024</span>
+              <span className="bg-gray-100 text-gray-800 text-sm px-3 py-1 rounded-full">2024</span>
             </div>
             <h3 className="text-xl font-semibold mb-3">
               The influence of childhood trauma and peer influence on substance abuse among psychiatric patients in Ibadan
