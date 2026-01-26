@@ -2,8 +2,8 @@ export default function Experience() {
   return (
     <div className="space-y-12">
       <section>
-        <h1 className="text-4xl font-bold mb-8">Professional Experience</h1>
-        <p className="text-xl text-gray-600 mb-12">
+        <h1 style={{color: 'white', textShadow: '2px 2px 4px rgba(0,0,0,0.7)'}} className="text-4xl font-bold mb-8">Professional Experience</h1>
+        <p style={{color: 'white', textShadow: '1px 1px 2px rgba(0,0,0,0.7)'}} className="text-xl text-gray-600 mb-12">
           A comprehensive overview of Daniel's professional journey in psychology, counselling, and academic leadership.
         </p>
       </section>
