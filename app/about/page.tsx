@@ -26,13 +26,13 @@ export default function About() {
           </div>
           
           <div>
-            <p className="text-xl text-gray-600 leading-relaxed mb-6">
+            <p style={{color: 'white', textShadow: '1px 1px 2px rgba(0,0,0,0.7)'}} className="text-xl text-gray-600 leading-relaxed mb-6">
               Daniel Ojotule Offor is a compassionate professional psychologist and counsellor with extensive expertise 
               in psychological assessments, evidence-based interventions, and holistic care. Based in Cardiff, United Kingdom, 
               he is dedicated to helping individuals, couples, and families achieve inner peace and emotional resilience.
             </p>
             
-            <p className="text-gray-600 leading-relaxed">
+            <p style={{color: 'white', textShadow: '1px 1px 2px rgba(0,0,0,0.7)'}} className="text-gray-600 leading-relaxed">
               With a unique background that combines clinical psychology with theological studies, Daniel brings a 
               comprehensive approach to mental health care. His work integrates psychological principles with 
               values-based approaches, creating individualized treatment plans that foster both emotional resilience 
