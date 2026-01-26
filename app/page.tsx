@@ -26,32 +26,32 @@ export default function Home() {
       {/* Key Areas */}
       <section style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '24px'}}>
         <div className="card" style={{textAlign: 'center'}}>
-          <h3 style={{fontSize: '22px', fontWeight: '600', marginBottom: '16px', color: '#667eea'}}>Clinical Psychology</h3>
-          <p style={{color: '#6b7280', lineHeight: '1.6'}}>
+          <h3 style={{fontSize: '22px', fontWeight: '600', marginBottom: '16px', color: '#3b82f6'}}>Clinical Psychology</h3>
+          <p style={{color: '#4b5563', lineHeight: '1.6'}}>
             Specialized in CBT, DBT, trauma therapy, and evidence-based interventions for anxiety, depression, and substance abuse.
           </p>
         </div>
         <div className="card" style={{textAlign: 'center'}}>
-          <h3 style={{fontSize: '22px', fontWeight: '600', marginBottom: '16px', color: '#667eea'}}>Research & Publications</h3>
-          <p style={{color: '#6b7280', lineHeight: '1.6'}}>
+          <h3 style={{fontSize: '22px', fontWeight: '600', marginBottom: '16px', color: '#3b82f6'}}>Research & Publications</h3>
+          <p style={{color: '#4b5563', lineHeight: '1.6'}}>
             Published researcher in trauma, substance abuse, and family therapy with contributions to leading journals.
           </p>
         </div>
         <div className="card" style={{textAlign: 'center'}}>
-          <h3 style={{fontSize: '22px', fontWeight: '600', marginBottom: '16px', color: '#667eea'}}>Holistic Counselling</h3>
-          <p style={{color: '#6b7280', lineHeight: '1.6'}}>
+          <h3 style={{fontSize: '22px', fontWeight: '600', marginBottom: '16px', color: '#3b82f6'}}>Holistic Counselling</h3>
+          <p style={{color: '#4b5563', lineHeight: '1.6'}}>
             Integrating psychological knowledge with values-based approaches for comprehensive emotional and spiritual growth.
           </p>
         </div>
       </section>
 
       {/* Contact CTA */}
-      <section style={{textAlign: 'center', padding: '48px 24px', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white', borderRadius: '12px', boxShadow: '0 8px 32px rgba(102, 126, 234, 0.3)'}}>
+      <section style={{textAlign: 'center', padding: '48px 24px', background: 'linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%)', color: 'white', borderRadius: '12px', boxShadow: '0 8px 32px rgba(59, 130, 246, 0.25)'}}>
         <h2 style={{fontSize: '32px', fontWeight: 'bold', marginBottom: '16px'}}>Ready to Connect?</h2>
         <p style={{fontSize: '20px', marginBottom: '24px', opacity: '0.9'}}>
           Whether you're seeking counselling services, research collaboration, or professional consultation
         </p>
-        <Link href="/contact" style={{backgroundColor: 'rgba(255,255,255,0.9)', color: '#667eea', padding: '12px 32px', borderRadius: '8px', fontWeight: '600', textDecoration: 'none', transition: 'all 0.3s'}}>
+        <Link href="/contact" style={{backgroundColor: 'rgba(255,255,255,0.95)', color: '#3b82f6', padding: '12px 32px', borderRadius: '8px', fontWeight: '600', textDecoration: 'none', transition: 'all 0.3s'}}>
           Contact Daniel
         </Link>
       </section>
