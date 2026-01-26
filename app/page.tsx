@@ -5,10 +5,10 @@ export default function Home() {
     <div style={{display: 'flex', flexDirection: 'column', gap: '64px'}}>
       {/* Hero Section */}
       <section style={{textAlign: 'center', padding: '60px 20px'}}>
-        <h1 style={{fontSize: '48px', fontWeight: 'bold', color: '#111827', marginBottom: '24px', textShadow: '0 2px 4px rgba(0,0,0,0.1)'}}>
+        <h1 style={{fontSize: '48px', fontWeight: 'bold', color: 'white', marginBottom: '24px', textShadow: '2px 2px 4px rgba(0,0,0,0.5)'}}>
           Daniel Ojotule Offor
         </h1>
-        <p style={{fontSize: '20px', color: '#4b5563', marginBottom: '32px', maxWidth: '800px', margin: '0 auto 32px', lineHeight: '1.6'}}>
+        <p style={{fontSize: '20px', color: 'white', marginBottom: '32px', maxWidth: '800px', margin: '0 auto 32px', lineHeight: '1.6', textShadow: '1px 1px 2px rgba(0,0,0,0.5)'}}>
           Compassionate Professional Psychologist and Counsellor with expertise in psychological assessments, 
           evidence-based interventions, and holistic care, dedicated to helping individuals, couples, and families 
           achieve inner peace and emotional resilience.

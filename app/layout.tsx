@@ -25,12 +25,12 @@ export default function RootLayout({
         <div className="content-wrapper">
           <header style={{padding: '15px 16px', borderBottom: '1px solid rgba(255,255,255,0.2)', backgroundColor: 'rgba(255,255,255,0.1)', backdropFilter: 'blur(10px)'}}>
             <nav style={{display: 'flex', gap: '8px', maxWidth: '1200px', margin: '0 auto', flexWrap: 'wrap', justifyContent: 'center', fontSize: '13px'}}>
-              <Link href="/" style={{textDecoration: 'none', color: '#000000', fontWeight: '700', padding: '6px 10px', borderRadius: '6px', transition: 'all 0.2s', whiteSpace: 'nowrap'}}>Home</Link>
-              <Link href="/about" style={{textDecoration: 'none', color: '#000000', fontWeight: '700', padding: '6px 10px', borderRadius: '6px', transition: 'all 0.2s', whiteSpace: 'nowrap'}}>About</Link>
-              <Link href="/research" style={{textDecoration: 'none', color: '#000000', fontWeight: '700', padding: '6px 10px', borderRadius: '6px', transition: 'all 0.2s', whiteSpace: 'nowrap'}}>Research</Link>
-              <Link href="/publications" style={{textDecoration: 'none', color: '#000000', fontWeight: '700', padding: '6px 10px', borderRadius: '6px', transition: 'all 0.2s', whiteSpace: 'nowrap'}}>Publications</Link>
-              <Link href="/experience" style={{textDecoration: 'none', color: '#000000', fontWeight: '700', padding: '6px 10px', borderRadius: '6px', transition: 'all 0.2s', whiteSpace: 'nowrap'}}>Experience</Link>
-              <Link href="/contact" style={{textDecoration: 'none', color: '#000000', fontWeight: '700', padding: '6px 10px', borderRadius: '6px', transition: 'all 0.2s', whiteSpace: 'nowrap'}}>Contact</Link>
+              <Link href="/" style={{textDecoration: 'none', color: 'white', fontWeight: '700', padding: '6px 10px', borderRadius: '6px', transition: 'all 0.2s', whiteSpace: 'nowrap', textShadow: '1px 1px 2px rgba(0,0,0,0.7)'}}>Home</Link>
+              <Link href="/about" style={{textDecoration: 'none', color: 'white', fontWeight: '700', padding: '6px 10px', borderRadius: '6px', transition: 'all 0.2s', whiteSpace: 'nowrap', textShadow: '1px 1px 2px rgba(0,0,0,0.7)'}}>About</Link>
+              <Link href="/research" style={{textDecoration: 'none', color: 'white', fontWeight: '700', padding: '6px 10px', borderRadius: '6px', transition: 'all 0.2s', whiteSpace: 'nowrap', textShadow: '1px 1px 2px rgba(0,0,0,0.7)'}}>Research</Link>
+              <Link href="/publications" style={{textDecoration: 'none', color: 'white', fontWeight: '700', padding: '6px 10px', borderRadius: '6px', transition: 'all 0.2s', whiteSpace: 'nowrap', textShadow: '1px 1px 2px rgba(0,0,0,0.7)'}}>Publications</Link>
+              <Link href="/experience" style={{textDecoration: 'none', color: 'white', fontWeight: '700', padding: '6px 10px', borderRadius: '6px', transition: 'all 0.2s', whiteSpace: 'nowrap', textShadow: '1px 1px 2px rgba(0,0,0,0.7)'}}>Experience</Link>
+              <Link href="/contact" style={{textDecoration: 'none', color: 'white', fontWeight: '700', padding: '6px 10px', borderRadius: '6px', transition: 'all 0.2s', whiteSpace: 'nowrap', textShadow: '1px 1px 2px rgba(0,0,0,0.7)'}}>Contact</Link>
             </nav>
           </header>
 

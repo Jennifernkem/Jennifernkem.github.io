@@ -2,8 +2,8 @@ export default function Research() {
   return (
     <div className="space-y-12">
       <section>
-        <h1 className="text-4xl font-bold mb-8">Research & Academic Work</h1>
-        <p className="text-xl text-gray-600 mb-12">
+        <h1 style={{color: 'white', textShadow: '2px 2px 4px rgba(0,0,0,0.7)'}} className="text-4xl font-bold mb-8">Research & Academic Work</h1>
+        <p style={{color: 'white', textShadow: '1px 1px 2px rgba(0,0,0,0.7)'}} className="text-xl text-gray-600 mb-12">
           Daniel's research focuses on advancing our understanding of trauma, substance abuse, and therapeutic interventions 
           through rigorous academic inquiry and evidence-based methodologies.
         </p>
@@ -42,7 +42,7 @@ export default function Research() {
 
       {/* Research Areas */}
       <section>
-        <h2 className="text-3xl font-bold mb-8">Primary Research Areas</h2>
+        <h2 style={{color: 'white', textShadow: '2px 2px 4px rgba(0,0,0,0.7)'}} className="text-3xl font-bold mb-8">Primary Research Areas</h2>
         <div className="grid lg:grid-cols-3 gap-8">
           
           <div className="card border-l-4 border-red-600">

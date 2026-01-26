@@ -2,15 +2,15 @@ export default function Publications() {
   return (
     <div className="space-y-12">
       <section>
-        <h1 className="text-4xl font-bold mb-8">Research Publications</h1>
-        <p className="text-xl text-gray-600 mb-12">
+        <h1 style={{color: 'white', textShadow: '2px 2px 4px rgba(0,0,0,0.7)'}} className="text-4xl font-bold mb-8">Research Publications</h1>
+        <p style={{color: 'white', textShadow: '1px 1px 2px rgba(0,0,0,0.7)'}} className="text-xl text-gray-600 mb-12">
           Daniel's contributions to psychological research, focusing on trauma, substance abuse, family therapy, and therapeutic interventions.
         </p>
       </section>
 
       {/* Didee Publications - 4 articles */}
       <section>
-        <h2 className="text-3xl font-bold mb-8 text-blue-600">Featured Publications - Didee Publications</h2>
+        <h2 style={{color: 'white', textShadow: '2px 2px 4px rgba(0,0,0,0.7)'}} className="text-3xl font-bold mb-8 text-blue-600">Featured Publications - Didee Publications</h2>
         <div className="space-y-6">
           
           <div className="card border-l-4 border-blue-600">
@@ -113,7 +113,7 @@ export default function Publications() {
 
       {/* Google Scholar Publications - 5 articles */}
       <section>
-        <h2 className="text-3xl font-bold mb-8 text-green-600">Peer-Reviewed Journal Publications</h2>
+        <h2 style={{color: 'white', textShadow: '2px 2px 4px rgba(0,0,0,0.7)'}} className="text-3xl font-bold mb-8 text-green-600">Peer-Reviewed Journal Publications</h2>
         <div className="space-y-6">
           
           <div className="card border-l-4 border-gray-600">

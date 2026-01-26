@@ -2,8 +2,8 @@ export default function Contact() {
   return (
     <div className="space-y-12">
       <section className="text-center">
-        <h1 className="text-4xl font-bold mb-8">Get In Touch</h1>
-        <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
+        <h1 style={{color: 'white', textShadow: '2px 2px 4px rgba(0,0,0,0.7)'}} className="text-4xl font-bold mb-8">Get In Touch</h1>
+        <p style={{color: 'white', textShadow: '1px 1px 2px rgba(0,0,0,0.7)'}} className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
           Whether you're seeking counselling services, research collaboration, or professional consultation, 
           Daniel is available to discuss how he can support your needs.
         </p>

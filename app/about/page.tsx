@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className="space-y-12">
       <section>
-        <h1 className="text-4xl font-bold mb-8">About Daniel Ojotule Offor</h1>
+        <h1 style={{color: 'white', textShadow: '2px 2px 4px rgba(0,0,0,0.7)'}} className="text-4xl font-bold mb-8">About Daniel Ojotule Offor</h1>
         
         {/* Profile Section with Image Placeholder */}
         <div style={{display: 'grid', gridTemplateColumns: '1fr 2fr', gap: '32px', alignItems: 'start', marginBottom: '32px'}}>
@@ -74,7 +74,7 @@ export default function About() {
 
       {/* Key Skills */}
       <section>
-        <h2 className="text-3xl font-bold mb-8">Key Skills & Expertise</h2>
+        <h2 style={{color: 'white', textShadow: '2px 2px 4px rgba(0,0,0,0.7)'}} className="text-3xl font-bold mb-8">Key Skills & Expertise</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <div className="card">
             <h3 className="text-xl font-semibold mb-4 text-blue-600">Clinical Skills</h3>
